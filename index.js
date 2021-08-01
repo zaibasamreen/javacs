@@ -54,6 +54,6 @@ animals.reverse();
 console.log(animals);
 
 //iterating:
-for(i=0; i<=length-1; i++){
-        console.log(animals[4]);
+for( var i=0; i<=animals.length-1; i++){
+        console.log(animals[i]);
 }
